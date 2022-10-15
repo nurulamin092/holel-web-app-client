@@ -9,7 +9,7 @@ module.exports = {
         hotelThem: {
           primary: "#FEE0AE",
           secondary: "#EDEDED",
-          accent: "#3A4256",
+          accent: "#F5F5F5",
           neutral: "#3d4451",
           "base-100": "#ffffff",
         },
