@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bgImg from '../../images/h1.png'
-import Hero from '../Home/Hero';
 
 
 const Navbar = () => {
