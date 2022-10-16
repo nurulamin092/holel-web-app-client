@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import bgImg from '../../images/h1.png'
 const Banner = () => {
     return (
         <div>
-<div className="hero max-w-full min-h-screen"  style={{ background: `url(${bgImg})`, backgroundSize: 'cover' }}>
+<div className="hero max-w-full min-h-screen mt-[-100px]"  style={{ background: `url(${bgImg})`, backgroundSize: 'cover' }}>
   <div className="hero-content flex-col lg:flex-row justify-evenly">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl text-white font-bold">Find Most <br /> Luxurious Hotels <br /> Across the Globe</h1>

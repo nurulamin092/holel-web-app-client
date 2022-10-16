@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bgImg from '../../images/h1.png'
-
 
 const Navbar = () => {
 
@@ -16,14 +14,15 @@ const Navbar = () => {
           <li><Link>Submenu 2</Link></li>
         </ul>
       </li>
-            <li><Link>Location </Link></li>
-            <li><Link>About</Link></li>
-            <li><Link>Contract</Link></li>
-            <li><Link>Login</Link></li>
+           
+            <li><Link to="/location">Location </Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contract">Contract</Link></li>
+            <li><Link to="/login">Login</Link></li>
 
   </>
   return (
-  <div className="navbar">
+  <div className="navbar sticky top-0 z-50">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,14 +31,14 @@ const Navbar = () => {
             strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
         </svg>
       </label>
-      <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu menu-compact dropdown-content text-white hover:text-cyan-500  mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           {menuItems}
       </ul>
     </div>
-    <Link className="btn btn-ghost normal-case text-xl">Gloritel</Link>
+    <Link to="/" className="btn btn-ghost normal-case text-white text-xl">Gloritel</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal p-0">
+    <ul className="menu menu-horizontal p-0 text-white hover:text-cyan-500 ">
       {menuItems}  
     </ul>
   </div>
