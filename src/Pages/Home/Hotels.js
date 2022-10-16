@@ -9,13 +9,13 @@ const Hotels = () => {
         
         
   <div>
-  <div className='text-start ml-10 mt-10'>
+  <div className='text-start ml-10 my-20'>
   <h1 className=' text-3xl  '>Recommended Hotels</h1>
     <p>Book hotels as based upon experienced the <br /> best booking ever. Highly recommended</p>
   </div>
  <div className='flex row-span-3 gap-5 m-10'>
 
-<div className="card   shadow-xl">
+<div className="card mt-[-70px] shadow-xl">
     <figure><img src={delightHotelImg} alt="Shoes" /></figure>
 <div className="card-body">
  <div className='flex justify-between gap-40'>
@@ -34,7 +34,7 @@ const Hotels = () => {
 </div>        
 </div>
 </div>
-<div className="card   shadow-xl">
+<div className="card mt-[-40px]  shadow-xl">
     <figure><img src={royalHotelsImg} alt="Shoes" /></figure>
     <div className="card-body">
  <div className='flex justify-between gap-40'>
