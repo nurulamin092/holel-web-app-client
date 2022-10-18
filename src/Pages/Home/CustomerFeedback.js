@@ -1,5 +1,7 @@
 import React from 'react';
-
+import customerImg1 from '../../images/clients/c1.png'
+import customerImg2 from '../../images/clients/c2.png'
+import customerImg3 from '../../images/clients/c3.png'
 const CustomerFeedback = () => {
     return (
         <section>
@@ -17,7 +19,7 @@ const CustomerFeedback = () => {
           <div className='shadow-2xl max-w-52 my-3'>   
                 <div className='avatar my-5'>
                     <div className="w-24 rounded">
-                        <img className="w-24 rounded" src="https://placeimg.com/192/192/people" alt='' />
+                        <img className="w-24 rounded" src={customerImg1} alt='' />
                     </div>
                 </div>     
                 <h2 className='mx-10 text-start text-2xl'>Floyd Miles</h2>  
@@ -26,7 +28,7 @@ const CustomerFeedback = () => {
           <div className='shadow-2xl max-w-52 my-3'>   
                 <div className='avatar my-5'>
                     <div className="w-24 rounded">
-                        <img className="w-24 rounded" src="https://placeimg.com/192/192/people" alt='' />
+                        <img className="w-24 rounded" src={customerImg2} alt='' />
                     </div>
                 </div>     
                 <h2 className='mx-10 text-start text-2xl'>Ronald Richards</h2>  
@@ -39,7 +41,7 @@ const CustomerFeedback = () => {
           <div className='shadow-2xl max-w-52 my-3'>   
                 <div className='avatar my-10'>
                     <div className="w-24 rounded">
-                        <img className="w-24 rounded" src="https://placeimg.com/192/192/people" alt='' />
+                        <img className="w-24 rounded" src={customerImg3} alt='' />
                     </div>
                 </div>     
                 <h2 className='mx-10 text-start text-2xl'>Savannah Nguyen</h2>  

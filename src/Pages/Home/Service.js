@@ -1,5 +1,5 @@
 import React from 'react';
-import sImg from '../../images/h7.png'
+import sImg from '../../images/serviceHImg.png'
 const Service = () => {
     return (
         <div className='section m-10 '>

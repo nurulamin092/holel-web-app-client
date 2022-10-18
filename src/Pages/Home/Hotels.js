@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import delightHotelImg from '../../images/h6.png'
-import royalHotelsImg from '../../images/h3.png'
-import airBlueHotelsImg from '../../images/h4.png'
+import delightHotelImg from '../../images/rH1.png'
+import royalHotelsImg from '../../images/rH2.png'
+import airBlueHotelsImg from '../../images/rH3.png'
 
 const Hotels = () => {
     return (
