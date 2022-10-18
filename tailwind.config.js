@@ -8,7 +8,7 @@ module.exports = {
       DEFAULT: '4px',
       'md': '0.375rem',
       'lg': '0.5rem',
-      'el':'15.5rem',
+      'el':'6.5rem',
       'full': '9999px',
       'large': '12px',
     },

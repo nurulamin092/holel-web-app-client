@@ -9,10 +9,7 @@ const Navbar = () => {
           Find Hotels 
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </Link>
-        <ul className="p-2">
-          <li><Link>Submenu 1</Link></li>
-          <li><Link>Submenu 2</Link></li>
-        </ul>
+        
       </li>
            
             <li><Link to="/location">Location </Link></li>
@@ -31,14 +28,14 @@ const Navbar = () => {
             strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
         </svg>
       </label>
-      <ul tabIndex={0} className="menu menu-compact dropdown-content text-white hover:text-cyan-500  mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu menu-compact dropdown-content text-white hover:text-primary  mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           {menuItems}
       </ul>
     </div>
     <Link to="/" className="btn btn-ghost normal-case text-white text-xl">Gloritel</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal p-0 text-white hover:text-cyan-500 ">
+    <ul className="menu menu-horizontal p-0 text-white hover:text-primary ">
       {menuItems}  
     </ul>
   </div>
