@@ -3,6 +3,7 @@ import serviceImg from '../../images/icons/Rectangle13.png'
 import serviceHImg from '../../images/serviceHImg.png';
 import Service from './Service';
 const Services = () => {
+ 
   const services = [
     {
       serviceNumber: "01",
