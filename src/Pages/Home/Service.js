@@ -6,7 +6,7 @@ const Service = ({service}) => {
 <div className='flex gap-4'>
     
     <div className=''>   
-    <h1 className="text-7xl mt-[-10px]">{serviceNumber}</h1>  
+    <h1 className="text-7xl mb-[-10px]">{serviceNumber}</h1>  
         <img src={img} alt="" className='h-20 w-24 ' />
 
     </div>

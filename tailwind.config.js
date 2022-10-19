@@ -18,7 +18,7 @@ module.exports = {
     themes: [
       {
         hotelThem: {
-          primary: "#FEE0AE",
+          primary: "#FDC463",
           secondary: "#EDEDED",
           accent: "#F5F5F5",
           neutral: "#F5F5F5",

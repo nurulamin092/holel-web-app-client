@@ -8,10 +8,10 @@ const Hotels = () => {
     return (
         
         
-  <div>
+  <div className='my-10'>
   <div className='text-start ml-10 my-20'>
-  <h1 className=' text-3xl  '>Recommended Hotels</h1>
-    <p>Book hotels as based upon experienced the <br /> best booking ever. Highly recommended</p>
+  <h1 className=' text-3xl'>Recommended Hotels</h1>
+    <p className='mb-20'>Book hotels as based upon experienced the <br /> best booking ever. Highly recommended</p>
   </div>
  <div className='flex row-span-3 gap-20  m-10'>
 

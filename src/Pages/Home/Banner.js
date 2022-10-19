@@ -34,7 +34,7 @@ const Banner = () => {
             <span className="label-text text-white">Check In</span>
           </label>
 
-          <input type="text" placeholder="10 May" className="input input-bordered max-w-sm " />
+          <input type="text" placeholder="10 May" className="input input-bordered max-w-xs " />
                  
         </div>
         <div className="form-control">
@@ -42,7 +42,7 @@ const Banner = () => {
             <span className="label-text text-white">Check Out</span>
           </label>
 
-          <input type="text" placeholder="10 May" className="input input-bordered max-w-sm" />
+          <input type="text" placeholder="10 May" className="input input-bordered max-w-xs" />
           
         </div>
 

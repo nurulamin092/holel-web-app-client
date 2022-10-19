@@ -30,7 +30,7 @@ const Services = () => {
     return (
        
     <div className='section m-10'>
-      <div className='flex gap-4'>
+      <div className='flex gap-4 my-10'>
         <div>
           <img src={serviceHImg} alt="" />
         </div>    
