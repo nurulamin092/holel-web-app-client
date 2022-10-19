@@ -5,13 +5,13 @@ import Subscribe from '../Subscribe';
 import Banner from './Banner';
 import CustomerFeedback from './CustomerFeedback';
 import Hotels from './Hotels';
-import Service from './Service';
+import Services from './Services';
 const Home = () => {
     return (
         <div className='section'>            
             <Banner/>
             <Hotels/>
-            <Service/>
+            <Services/>
             <CustomerFeedback/>
             <Subscribe/>
             <Footer/>                      
